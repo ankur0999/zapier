@@ -1,0 +1,21 @@
+{
+  "name": "primary-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "@types/cors": "^2.8.17",
+    "@types/jsonwebtoken": "^9.0.6",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^5.18.0",
+    "zod": "^3.23.8"
+  }
+}
