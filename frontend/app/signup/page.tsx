@@ -2,7 +2,7 @@
 import { Appbar } from "@/components/Appbar"
 import { PrimaryButton } from "@/components/button/PrimaryButton";
 import { CheckFeatures } from "@/components/CheckFeatures"
-import { Input } from "@/components/input"
+import { Input } from "@/components/Input"
 import { useState } from "react";
 import axios from "axios";
 import { BACKEND_URL } from "../config";
